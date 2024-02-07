@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media.css">
+    <title>Tabuada</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>
+                Tabuada
+            </h1>
+
+            <div id="placaMae" class="placaMae">
+                <img src="imagens/Placa_Mãe.png" alt="Placa Mãe Cyberchase" id="placaMaePng">
+            </div>
+
+        </header>
+        <article>
+            <h2>
+                Digite um número de 1 a 10
+            </h2>
+
+            <p class="input">
+                <input type="number" name="numero" id="numero" min="1" max="10" required  class="appearance">
+            </p>
+
+            <p class="input">
+                <input type="submit" value="Calcular" id="calcular" onclick="calcular()">
+            </p>
+
+            <p class="input">
+                <select name="resultado" id="resultado" size="10">
+                    <option id="option">Digite um número acima</option>
+                </select>
+            </p>
+
+            <div id="digito">
+                <img src="imagens/Dígito.png" alt="Dígito cyberchase" id="digitoPng">
+            </div>
+
+            <div id="inez">
+                <img src="imagens/Inez.png" alt="Inez cyberchase" id="inezPng">
+            </div>
+
+            <div id="jackie">
+                <img src="imagens/Jackie.png" alt="Jackie cyberchase" id="jackiePng">
+            </div>
+
+            <div id="matt">
+                <img src="imagens/Matt.png" alt="Matt cyberchase" id="mattPng">
+            </div>
+
+        </article>
+        <footer>
+            <p>
+                <a href="https://github.com/SeuAilton/javascript/tree/main/desafios/tabuada" target="_blank">SeuAilton (Prelúdio)</a>
+            </p>
+        </footer>
+    </main>
+    <script src="codigo/script.js"></script>
+</body>
+</html>
